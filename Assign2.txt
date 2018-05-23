@@ -1,0 +1,80 @@
+Part I commands:
+
+mkdir User1
+cd User1
+git clone https://github.gatech.edu/gt-omscs-se-2018summer/6300Summer18xhe321.git
+cd 6300Summer18xhe321
+mkdir Assignment2
+cd Assignment2
+touch myinfo.txt
+cat > myinfo.txt
+Xiangnan He
+(Control + D)
+git add myinfo.txt
+git commit -m "Added myinfo file"
+git checkout -b development
+touch dev1.txt
+cat > dev1.txt
+Dev 1 file
+(control + D)
+git add dev1.txt
+git commit -m "Added dev1 file"
+git checkout master
+echo >> myinfo.txt
+85248
+(control+D)
+git commit -m "Edited myinfo file"
+git merge development -m "Merge #1"
+git push origin master
+
+Part II commands:
+Open a second commands window
+
+mkdir User2
+cd User2
+git clone https://github.gatech.edu/gt-omscs-se-2018summer/6300Summer18xhe321.git
+cd 6300Summer18xhe321/Assignment2
+git checkout development
+touch dev2.txt
+cat > dev2.txt
+Dev 2 file
+git add dev2.txt
+git commit -m "Added dev2 file"
+git checkout -b temp
+touch mytemp.txt
+cat > mytemp.txt
+Mytemp file
+git add mytemp.txt
+git commit -m "Added mytemp file"
+git checkout development
+touch dev3.txt
+cat > dev3.txt
+Dev 3 file
+git add dev3.txt
+git commit -m "Added dev3 file"
+git merge temp -m "Merge #2"
+git checkout master
+git merge development -m "Merge #3"
+echo >> myinfo.txt
+xhe321
+git commit -m "Edited myinfo file again"
+git push origin master
+
+Part III commands:
+back to the first terminal
+
+git checkout master
+echo >> myinfo.txt
+123-456-7890
+git commit -m "Edited myinfo file for the third time"
+git push origin master
+git commit -m "Final merge with conflicts fixed"
+git checkout master
+git tag -a V1
+git show V1
+
+#obtian commit ID for submission:
+In terminal 1
+
+git log -1
+
