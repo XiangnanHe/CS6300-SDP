@@ -21,7 +21,7 @@ git add dev1.txt
 git commit -m "Added dev1 file"
 git checkout master
 echo "85248" >> myinfo.txt
-(control+D)
+git add myinfo.txt
 git commit -m "Edited myinfo file"
 git merge development -m "Merge #1"
 git push --all origin
@@ -55,7 +55,7 @@ git merge temp -m "Merge #2"
 git checkout master
 git merge development -m "Merge #3"
 echo "xhe321" >> myinfo.txt
-git add -a
+git add -A
 git commit -m "Edited myinfo file again"
 git push --all origin
 
