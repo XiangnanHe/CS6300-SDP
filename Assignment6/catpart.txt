@@ -1,0 +1,51 @@
+# Input file
+
+  Input file length:
+    0.                        [property zerovalue]
+    1.
+    >1.
+
+  Input file content:
+    alpha characters.         [if !zerovalue]
+    numeric characters.       [if !zerovalue]
+    special characters.       [if !zerovalue]
+    spaces.                   [if !zerovalue]
+
+  Input file capitalization:
+    Yes.                      [if !zerovalue]
+    No.                       [if !zerovalue]
+
+# Dash
+  Dash used before arguments:
+    Yes.                      [if !zerovalue] 
+    No.                       [error]
+
+# Reverse characters
+  Reverse (-r):
+    Yes.                      [if !zerovalue]
+    No.                       [if !zerovalue]
+
+# Caesar cipher
+  Integer shift for Caesar cipher (-c):
+    <0.                       [single][error]
+    0.                        [single][if !zerovalue]
+    >0.                       [if !zerovalue]
+    maxint.                   [single][if !zerovalue]
+    Not integer.              [single][error]
+
+# Remove matches:
+  Remove matches (-d):
+    alpha character.          [if !zerovalue]
+    numeric character.        [error]   
+    special character.        [error]
+    spaces.                   [error]
+
+  Length of alpha character to remove:
+    0.                        [if !zerovalue]
+    >0 and <input file character number.                       [if !zerovalue]
+    >input file character number.                   [single]
+
+# Other argument
+  Dash followed by other characters than c, r, d:
+    Yes.                      [single][error] 
+    No.

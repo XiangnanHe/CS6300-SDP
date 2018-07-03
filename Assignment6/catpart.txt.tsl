@@ -1,0 +1,820 @@
+
+Test Case 1  		<error>
+   Dash used before arguments :  No
+
+
+Test Case 2  		<error>
+   Integer shift for Caesar cipher (-c) :  <0
+
+
+Test Case 3  		<single>
+   Integer shift for Caesar cipher (-c) :  0
+
+
+Test Case 4  		<single>
+   Integer shift for Caesar cipher (-c) :  maxint
+
+
+Test Case 5  		<error>
+   Integer shift for Caesar cipher (-c) :  Not integer
+
+
+Test Case 6  		<error>
+   Remove matches (-d) :  numeric character
+
+
+Test Case 7  		<error>
+   Remove matches (-d) :  special character
+
+
+Test Case 8  		<error>
+   Remove matches (-d) :  spaces
+
+
+Test Case 9  		<single>
+   Length of alpha character to remove :  >input file character number
+
+
+Test Case 10 		<error>
+   Dash followed by other characters than c, r, d :  Yes
+
+
+Test Case 11 		(Key = 1.0.0.0.0.0.0.0.2.)
+   Input file length                              :  0
+   Input file content                             :  <n/a>
+   Input file capitalization                      :  <n/a>
+   Dash used before arguments                     :  <n/a>
+   Reverse (-r)                                   :  <n/a>
+   Integer shift for Caesar cipher (-c)           :  <n/a>
+   Remove matches (-d)                            :  <n/a>
+   Length of alpha character to remove            :  <n/a>
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 12 		(Key = 2.1.1.1.1.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 13 		(Key = 2.1.1.1.1.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 14 		(Key = 2.1.1.1.2.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 15 		(Key = 2.1.1.1.2.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 16 		(Key = 2.1.2.1.1.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 17 		(Key = 2.1.2.1.1.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 18 		(Key = 2.1.2.1.2.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 19 		(Key = 2.1.2.1.2.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 20 		(Key = 2.2.1.1.1.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 21 		(Key = 2.2.1.1.1.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 22 		(Key = 2.2.1.1.2.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 23 		(Key = 2.2.1.1.2.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 24 		(Key = 2.2.2.1.1.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 25 		(Key = 2.2.2.1.1.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 26 		(Key = 2.2.2.1.2.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 27 		(Key = 2.2.2.1.2.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 28 		(Key = 2.3.1.1.1.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  special characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 29 		(Key = 2.3.1.1.1.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  special characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 30 		(Key = 2.3.1.1.2.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  special characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 31 		(Key = 2.3.1.1.2.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  special characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 32 		(Key = 2.3.2.1.1.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  special characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 33 		(Key = 2.3.2.1.1.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  special characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 34 		(Key = 2.3.2.1.2.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  special characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 35 		(Key = 2.3.2.1.2.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  special characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 36 		(Key = 2.4.1.1.1.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  spaces
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 37 		(Key = 2.4.1.1.1.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  spaces
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 38 		(Key = 2.4.1.1.2.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  spaces
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 39 		(Key = 2.4.1.1.2.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  spaces
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 40 		(Key = 2.4.2.1.1.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  spaces
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 41 		(Key = 2.4.2.1.1.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  spaces
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 42 		(Key = 2.4.2.1.2.3.1.1.2.)
+   Input file length                              :  1
+   Input file content                             :  spaces
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 43 		(Key = 2.4.2.1.2.3.1.2.2.)
+   Input file length                              :  1
+   Input file content                             :  spaces
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 44 		(Key = 3.1.1.1.1.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 45 		(Key = 3.1.1.1.1.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 46 		(Key = 3.1.1.1.2.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 47 		(Key = 3.1.1.1.2.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 48 		(Key = 3.1.2.1.1.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 49 		(Key = 3.1.2.1.1.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 50 		(Key = 3.1.2.1.2.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 51 		(Key = 3.1.2.1.2.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  alpha characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 52 		(Key = 3.2.1.1.1.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 53 		(Key = 3.2.1.1.1.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 54 		(Key = 3.2.1.1.2.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 55 		(Key = 3.2.1.1.2.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 56 		(Key = 3.2.2.1.1.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 57 		(Key = 3.2.2.1.1.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 58 		(Key = 3.2.2.1.2.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 59 		(Key = 3.2.2.1.2.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  numeric characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 60 		(Key = 3.3.1.1.1.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  special characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 61 		(Key = 3.3.1.1.1.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  special characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 62 		(Key = 3.3.1.1.2.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  special characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 63 		(Key = 3.3.1.1.2.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  special characters
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 64 		(Key = 3.3.2.1.1.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  special characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 65 		(Key = 3.3.2.1.1.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  special characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 66 		(Key = 3.3.2.1.2.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  special characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 67 		(Key = 3.3.2.1.2.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  special characters
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 68 		(Key = 3.4.1.1.1.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  spaces
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 69 		(Key = 3.4.1.1.1.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  spaces
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 70 		(Key = 3.4.1.1.2.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  spaces
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 71 		(Key = 3.4.1.1.2.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  spaces
+   Input file capitalization                      :  Yes
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 72 		(Key = 3.4.2.1.1.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  spaces
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 73 		(Key = 3.4.2.1.1.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  spaces
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  Yes
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 74 		(Key = 3.4.2.1.2.3.1.1.2.)
+   Input file length                              :  >1
+   Input file content                             :  spaces
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  0
+   Dash followed by other characters than c, r, d :  No
+
+
+Test Case 75 		(Key = 3.4.2.1.2.3.1.2.2.)
+   Input file length                              :  >1
+   Input file content                             :  spaces
+   Input file capitalization                      :  No
+   Dash used before arguments                     :  Yes
+   Reverse (-r)                                   :  No
+   Integer shift for Caesar cipher (-c)           :  >0
+   Remove matches (-d)                            :  alpha character
+   Length of alpha character to remove            :  >0 and <input file character number
+   Dash followed by other characters than c, r, d :  No
+
